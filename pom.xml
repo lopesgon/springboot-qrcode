@@ -9,14 +9,15 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.lopesgon.digift</groupId>
-	<artifactId>digift</artifactId>
+	<groupId>com.lopesgon.demo</groupId>
+	<artifactId>demos-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DiGift Parent</name>
+	<name>Demos Parent</name>
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>api</module>
+		<module>qrcode-demo</module>
+		<module>queue-demo</module>
 	</modules>
 
 	<properties>

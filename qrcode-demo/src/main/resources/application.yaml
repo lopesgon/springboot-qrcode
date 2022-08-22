@@ -1,0 +1,14 @@
+app:
+  test: dummy-value
+  security:
+    public-urls:
+      - /actuator/**
+      - /barcodes
+
+spring:
+  datasource:
+    username: qrcode
+    password: password
+
+server:
+  port: 6798
